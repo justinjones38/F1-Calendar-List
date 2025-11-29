@@ -10,7 +10,11 @@ import spain from "./assets/spain.png";
 import canada from "./assets/canada.png";
 import austria from "./assets/austria.png";
 import british from "./assets/british.png";
-
+import belgium from "./assets/belgium.png";
+import hungary from "./assets/hungary.png";
+import dutch from "./assets/dutch.png";
+import italy from "./assets/italy.png";
+import baku from "./assets/baku.png";
 
 const events = [{
     img: australia,
@@ -77,14 +81,14 @@ const events = [{
     link: "https://www.formula1.com/en/racing/2025/spain"
 }, {
     img: canada,
-    name: "Canada Grand Prix",
+    name: "Canadian Grand Prix",
     location: "Montreal",
     raceDate: "15 June",
     round: 10,
     link: "https://www.formula1.com/en/racing/2025/canada"
 }, {
     img: austria,
-    name: "Austria Grand Prix",
+    name: "Austrian Grand Prix",
     location: "Austria",
     raceDate: "29 June",
     round: 11,
@@ -95,6 +99,90 @@ const events = [{
     location: "Britain",
     raceDate: "06 July",
     round: 12,
+    link: "https://www.formula1.com/en/racing/2025/great-britain"
+}, {
+    img: british,
+    name: "British Grand Prix",
+    location: "Britain",
+    raceDate: "06 July",
+    round: 13,
+    link: "https://www.formula1.com/en/racing/2025/great-britain"
+}, {
+    img: british,
+    name: "British Grand Prix",
+    location: "Britain",
+    raceDate: "06 July",
+    round: 14,
+    link: "https://www.formula1.com/en/racing/2025/great-britain"
+}, {
+    img: british,
+    name: "British Grand Prix",
+    location: "Britain",
+    raceDate: "06 July",
+    round: 15,
+    link: "https://www.formula1.com/en/racing/2025/great-britain"
+}, {
+    img: british,
+    name: "British Grand Prix",
+    location: "Britain",
+    raceDate: "06 July",
+    round: 16,
+    link: "https://www.formula1.com/en/racing/2025/great-britain"
+}, {
+    img: british,
+    name: "British Grand Prix",
+    location: "Britain",
+    raceDate: "06 July",
+    round: 17,
+    link: "https://www.formula1.com/en/racing/2025/great-britain"
+}, {
+    img: british,
+    name: "British Grand Prix",
+    location: "Britain",
+    raceDate: "06 July",
+    round: 18,
+    link: "https://www.formula1.com/en/racing/2025/great-britain"
+}, {
+    img: british,
+    name: "British Grand Prix",
+    location: "Britain",
+    raceDate: "06 July",
+    round: 19,
+    link: "https://www.formula1.com/en/racing/2025/great-britain"
+}, {
+    img: british,
+    name: "British Grand Prix",
+    location: "Britain",
+    raceDate: "06 July",
+    round: 20,
+    link: "https://www.formula1.com/en/racing/2025/great-britain"
+}, {
+    img: british,
+    name: "British Grand Prix",
+    location: "Britain",
+    raceDate: "06 July",
+    round: 21,
+    link: "https://www.formula1.com/en/racing/2025/great-britain"
+}, {
+    img: british,
+    name: "British Grand Prix",
+    location: "Britain",
+    raceDate: "06 July",
+    round: 22,
+    link: "https://www.formula1.com/en/racing/2025/great-britain"
+}, {
+    img: british,
+    name: "British Grand Prix",
+    location: "Britain",
+    raceDate: "06 July",
+    round: 23,
+    link: "https://www.formula1.com/en/racing/2025/great-britain"
+}, {
+    img: british,
+    name: "British Grand Prix",
+    location: "Britain",
+    raceDate: "06 July",
+    round: 24,
     link: "https://www.formula1.com/en/racing/2025/great-britain"
 },
 ]

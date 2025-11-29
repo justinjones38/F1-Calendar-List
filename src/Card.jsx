@@ -5,9 +5,10 @@ const Card = (props) => {
         return (
             <div className="Card">
                 <img src={event.img} alt={location} />
-                <h1>{event.name}</h1>
-                <h2>{event.raceDate}</h2>
                 <h4>Round {event.round}</h4>
+                <h4>{event.raceDate}</h4>
+                <h1>{event.location}</h1>
+                <h2>{event.name}</h2>
                 <button><a href={event.link} target="_blank">More Info</a></button>
             </div>
         )
