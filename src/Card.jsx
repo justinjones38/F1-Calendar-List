@@ -8,7 +8,7 @@ const Card = (props) => {
                 <h1>{event.name}</h1>
                 <h2>{event.raceDate}</h2>
                 <h4>Round {event.round}</h4>
-                <button><a href={event.link}>More Info</a></button>
+                <button><a href={event.link} target="_blank">More Info</a></button>
             </div>
         )
     })
