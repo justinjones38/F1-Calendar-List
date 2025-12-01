@@ -49,7 +49,7 @@ npm install
 
 ```bash
 npm run dev   # For Vite
-
+```
 
 Open your browser at:
 **[http://localhost:3000](http://localhost:3000)**
