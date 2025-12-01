@@ -15,6 +15,13 @@ import hungary from "./assets/hungary.png";
 import dutch from "./assets/dutch.png";
 import italy from "./assets/italy.png";
 import baku from "./assets/baku.png";
+import singapore from "./assets/singapore.png";
+import usa from "./assets/usa.png";
+import mexico from "./assets/mexico.png";
+import brazil from "./assets/brazil.png";
+import las_vegas from "./assets/las_vegas.png"
+import qatar from "./assets/qatar.png";
+import abu_dhabi from "./assets/abu_dhabi.png";
 
 const events = [{
     img: australia,
@@ -96,94 +103,94 @@ const events = [{
 }, {
     img: british,
     name: "British Grand Prix",
-    location: "Britain",
+    location: "Great Britain",
     raceDate: "06 July",
     round: 12,
     link: "https://www.formula1.com/en/racing/2025/great-britain"
 }, {
-    img: british,
-    name: "British Grand Prix",
-    location: "Britain",
-    raceDate: "06 July",
+    img: belgium,
+    name: "Belgium Grand Prix",
+    location: "Belgium",
+    raceDate: "27 July",
     round: 13,
-    link: "https://www.formula1.com/en/racing/2025/great-britain"
+    link: "https://www.formula1.com/en/racing/2025/belgium"
 }, {
-    img: british,
-    name: "British Grand Prix",
-    location: "Britain",
-    raceDate: "06 July",
+    img: hungary,
+    name: "Hungarian Grand Prix",
+    location: "Hungary",
+    raceDate: "03 August",
     round: 14,
-    link: "https://www.formula1.com/en/racing/2025/great-britain"
+    link: "https://www.formula1.com/en/racing/2025/hungary"
 }, {
-    img: british,
-    name: "British Grand Prix",
-    location: "Britain",
-    raceDate: "06 July",
+    img: dutch,
+    name: "Dutch Grand Prix",
+    location: "Neatherlands",
+    raceDate: "31 August",
     round: 15,
-    link: "https://www.formula1.com/en/racing/2025/great-britain"
+    link: "https://www.formula1.com/en/racing/2025/neatherlands"
 }, {
-    img: british,
-    name: "British Grand Prix",
-    location: "Britain",
-    raceDate: "06 July",
+    img: italy,
+    name: "Italian Grand Prix",
+    location: "Italy",
+    raceDate: "07 September",
     round: 16,
-    link: "https://www.formula1.com/en/racing/2025/great-britain"
+    link: "https://www.formula1.com/en/racing/2025/italy"
 }, {
-    img: british,
-    name: "British Grand Prix",
-    location: "Britain",
-    raceDate: "06 July",
+    img: baku,
+    name: "Azerbaijan Grand Prix",
+    location: "Azerbaijan",
+    raceDate: "21 September",
     round: 17,
-    link: "https://www.formula1.com/en/racing/2025/great-britain"
+    link: "https://www.formula1.com/en/racing/2025/azerbaijan"
 }, {
-    img: british,
-    name: "British Grand Prix",
-    location: "Britain",
-    raceDate: "06 July",
+    img: singapore,
+    name: "Singapore Grand Prix",
+    location: "Singapore",
+    raceDate: "05 October",
     round: 18,
-    link: "https://www.formula1.com/en/racing/2025/great-britain"
+    link: "https://www.formula1.com/en/racing/2025/singapore"
 }, {
-    img: british,
-    name: "British Grand Prix",
-    location: "Britain",
-    raceDate: "06 July",
+    img: usa,
+    name: "United States Grand Prix",
+    location: "United States",
+    raceDate: "19 October",
     round: 19,
-    link: "https://www.formula1.com/en/racing/2025/great-britain"
+    link: "https://www.formula1.com/en/racing/2025/united-states"
 }, {
-    img: british,
-    name: "British Grand Prix",
-    location: "Britain",
-    raceDate: "06 July",
+    img: mexico,
+    name: "Mexican Grand Prix",
+    location: "Mexico",
+    raceDate: "26 October",
     round: 20,
-    link: "https://www.formula1.com/en/racing/2025/great-britain"
+    link: "https://www.formula1.com/en/racing/2025/mexico"
 }, {
-    img: british,
-    name: "British Grand Prix",
-    location: "Britain",
-    raceDate: "06 July",
+    img: brazil,
+    name: "Brazilain Grand Prix",
+    location: "Brazil",
+    raceDate: "09 November",
     round: 21,
-    link: "https://www.formula1.com/en/racing/2025/great-britain"
+    link: "https://www.formula1.com/en/racing/2025/brazil"
 }, {
-    img: british,
-    name: "British Grand Prix",
-    location: "Britain",
-    raceDate: "06 July",
+    img: las_vegas,
+    name: "Las Vegas Grand Prix",
+    location: "Las Vegas",
+    raceDate: "22 November",
     round: 22,
-    link: "https://www.formula1.com/en/racing/2025/great-britain"
+    link: "https://www.formula1.com/en/racing/2025/las-vegas"
 }, {
-    img: british,
-    name: "British Grand Prix",
-    location: "Britain",
-    raceDate: "06 July",
+    img: qatar,
+    name: "Qatar Grand Prix",
+    location: "Qatar",
+    raceDate: "30 November",
     round: 23,
-    link: "https://www.formula1.com/en/racing/2025/great-britain"
+    link: "https://www.formula1.com/en/racing/2025/qatar"
 }, {
-    img: british,
-    name: "British Grand Prix",
-    location: "Britain",
-    raceDate: "06 July",
+    img: abu_dhabi,
+    name: "Abu Dhabi Grand Prix",
+    location: "Abu Dhabi",
+    raceDate: "07 December",
     round: 24,
-    link: "https://www.formula1.com/en/racing/2025/great-britain"
+    link: "https://www.formula1.com/en/racing/2025/united-arab-emirates"
 },
 ]
 

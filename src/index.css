@@ -1,20 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 button {
   cursor: pointer;
-}
-
-@media (max-width: 650px) {
-  html {
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 10px;
-  }
 }
