@@ -1,8 +1,3 @@
-# F1-Calendar-List
-A React project displaying the F1 calendar for the 2025 schedule.
-
-*** Video Demo ***
-<img src="src/assets/Formula-1_Calendar.gif" alt="Video Demo" />
 Formula 1 2025 Calendar — React App
 
 A simple and interactive React application that displays the complete **2025 Formula 1 race schedule**, including dates, locations, and Grand Prix names.
