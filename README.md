@@ -70,6 +70,3 @@ Open your browser at:
 ## 🙌 Acknowledgments
 
 * Formula 1 © — official race schedule
-
-If you want, I can **generate the actual README with your project name**,
-or even **generate the full React code for the 2025 F1 calendar**.
