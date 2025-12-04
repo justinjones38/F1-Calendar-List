@@ -7,9 +7,9 @@ function App() {
 
   return (
     <div>
-        <div className="Header">
-          <div className="Header-Img">
-              <img src={f1} alt="F1 logo" />
+        <div className="header">
+          <div className="header-img">
+              <img src={f1} alt="F1 logo"  />
           </div>
           <h1>2025 FIA Formula One World Championship Schedule</h1>
         </div>

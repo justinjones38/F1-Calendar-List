@@ -1,25 +1,25 @@
-.Header {
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.Header-Img{
+.header-img{
   display: flex;
   justify-content: center;
 }
 
-.Header-Img img {
+.header-img img {
   width: 50%;
 }
 
-.Header h1 {
+.header h1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: clamp(1.8rem, 20%, 2.4rem);
   margin: 10px 30px 10px 30px;
 }
 
-.Card-Container {
+.card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
@@ -27,7 +27,7 @@
 
 }
 
-.Card {
+.card {
   display: block;
   border: 4px red solid;
   border-radius: 10px;
@@ -36,21 +36,21 @@
   transition: box-shadow 0.4s;
 }
 
-.Card:hover {
+.card:hover {
   cursor: pointer;
-  box-shadow: 0 0 3px red;
-  box-shadow:  0 0 5px red;
+  box-shadow: 0 0 3px red  0 0 5px red;
 }
-.Card-Img {
+.card-img {
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-.Card-Img img {
+.card-img img {
   width: 100%;
   height: clamp(100px, 30%, 150px);
 }
 
-.Card-Info {
+.card-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,28 +58,31 @@
     margin-bottom: 20px;
 }
 
-.Card-Info h4 {
+.card-info h4 {
   font-size: clamp(1.0rem, 13%, 1.2rem);
   margin-bottom: 10px;
 }
 
-.Card-Info h1 {
+.card-info h1 {
   font-size: clamp(1.4rem, 25%, 1.8rem);
 }
 
-.Card-Info h2 {
+.card-info h2 {
   font-size: clamp(1.15rem, 15%, 1.35rem);
   font-weight: normal;
   margin-bottom: 10px;
   margin-top: 5px;
 }
-.Card-Button {
+.card-button a{
   display: flex;
   justify-content: center;
+  width: 100%;
+  text-decoration: none;
 }
 
-.Card-Button button {
+.card-button button {
   background-color: red;
+  color: white;
   margin-top: 20px;
   width: 70%;
   border-radius: 12px;
@@ -87,24 +90,20 @@
   border: none;
 }
 
-.Card button a {
-  color: white;
-  text-decoration: none;
-}
 
-.Card button {
+.card button {
   transition: background-color 0.5s ;
 }
-.Card button:hover {
+.card button:hover {
   background-color: #ff3333;
 }
 
-.Card-Button button:active {
+.card-Button button:active {
   background-color: #b30000;
 }
 
 
-.Footer  {
+.footer  {
   background-color: red;
   display: flex;
   flex-direction: column;
@@ -114,15 +113,19 @@
   padding: 30px;
 }
 
+.footer span {
+  font-weight: bold;
+}
+
 
 @media (max-width: 700px) {
-  .Card-Container {
+  .card-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 450px) {
-  .Card-Container {
+  .card-container {
     grid-template-columns: repeat(1, 1fr);
   }
 }
