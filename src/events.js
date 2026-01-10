@@ -4,7 +4,7 @@ import japan from "./assets/japan.png";
 import bahrain from "./assets/bahrain.png";
 import saudi_arabia from "./assets/saudi_arabia.png";
 import miami from "./assets/miami.png";
-import imola from "./assets/imola.png";
+import madrid from "./assets/madrid.png";
 import monaco from "./assets/monaco.png";
 import spain from "./assets/spain.png";
 import canada from "./assets/canada.png";
@@ -27,170 +27,170 @@ const events = [{
     img: australia,
     name: "Australian Grand Prix",
     location: "Australia",
-    raceDate: "16 March",
+    raceDate: "08 March",
     round: 1,
-    link: "https://www.formula1.com/en/racing/2025/australia"
+    link: "https://www.formula1.com/en/racing/2026/australia"
 }, {
     img: china,
     name: "Chinese Grand Prix",
     location: "China",
-    raceDate: "23 March",
+    raceDate: "15 March",
     round: 2,
-    link: "https://www.formula1.com/en/racing/2025/china"
+    link: "https://www.formula1.com/en/racing/2026/china"
 }, {
     img: japan,
     name: "Japanese Grand Prix",
     location: "Japan",
-    raceDate: "06 April",
+    raceDate: "29 April",
     round: 3,
-    link: "https://www.formula1.com/en/racing/2025/japan"
+    link: "https://www.formula1.com/en/racing/2026/japan"
 }, {
     img: bahrain,
     name: "Bahrain Grand Prix",
     location: "Bahrain",
-    raceDate: "13 April",
+    raceDate: "12 April",
     round: 4,
-    link: "https://www.formula1.com/en/racing/2025/bahrain"
+    link: "https://www.formula1.com/en/racing/2026/bahrain"
 }, {
     img: saudi_arabia,
     name: "Saudi Arabian Grand Prix",
     location: "Saudi Arabia",
-    raceDate: "20 April",
+    raceDate: "19 April",
     round: 5,
-    link: "https://www.formula1.com/en/racing/2025/saudi-arabia"
+    link: "https://www.formula1.com/en/racing/2026/saudi-arabia"
 }, {
     img: miami,
     name: "Miami Grand Prix",
     location: "Miami",
-    raceDate: "04 May",
+    raceDate: "01 May",
     round: 6,
-    link: "https://www.formula1.com/en/racing/2025/miami"
-}, {
-    img: imola,
-    name: "Emilia Romagna Grand Prix",
-    location: "Emilia Romagna",
-    raceDate: "18 May",
-    round: 7,
-    link: "https://www.formula1.com/en/racing/2025/emiliaromagna"
-}, {
-    img: monaco,
-    name: "Monaco Grand Prix",
-    location: "Monaco",
-    raceDate: "25 May",
-    round: 8,
-    link: "https://www.formula1.com/en/racing/2025/monaco"
-}, {
-    img: spain,
-    name: "Spanish Grand Prix",
-    location: "Spain",
-    raceDate: "01 June",
-    round: 9,
-    link: "https://www.formula1.com/en/racing/2025/spain"
+    link: "https://www.formula1.com/en/racing/2026/miami"
 }, {
     img: canada,
     name: "Canadian Grand Prix",
     location: "Montreal",
-    raceDate: "15 June",
-    round: 10,
-    link: "https://www.formula1.com/en/racing/2025/canada"
+    raceDate: "24 May",
+    round: 7,
+    link: "https://www.formula1.com/en/racing/2026/canada"
+}, {
+    img: monaco,
+    name: "Monaco Grand Prix",
+    location: "Monaco",
+    raceDate: "07 June",
+    round: 8,
+    link: "https://www.formula1.com/en/racing/2026/monaco"
+}, {
+    img: spain,
+    name: "Barcelona-Catalunya Grand Prix",
+    location: "Barecelona-Catalunya",
+    raceDate: "14 June",
+    round: 9,
+    link: "https://www.formula1.com/en/racing/2026/barcelona-catalunya"
 }, {
     img: austria,
     name: "Austrian Grand Prix",
     location: "Austria",
-    raceDate: "29 June",
-    round: 11,
-    link: "https://www.formula1.com/en/racing/2025/austria"
+    raceDate: "28 June",
+    round: 10,
+    link: "https://www.formula1.com/en/racing/2026/austria"
 }, {
     img: british,
     name: "British Grand Prix",
     location: "Great Britain",
-    raceDate: "06 July",
-    round: 12,
-    link: "https://www.formula1.com/en/racing/2025/great-britain"
+    raceDate: "05 July",
+    round: 11,
+    link: "https://www.formula1.com/en/racing/2026/great-britain"
 }, {
     img: belgium,
     name: "Belgium Grand Prix",
     location: "Belgium",
-    raceDate: "27 July",
-    round: 13,
-    link: "https://www.formula1.com/en/racing/2025/belgium"
+    raceDate: "19 July",
+    round: 12,
+    link: "https://www.formula1.com/en/racing/2026/belgium"
 }, {
     img: hungary,
     name: "Hungarian Grand Prix",
     location: "Hungary",
-    raceDate: "03 August",
-    round: 14,
-    link: "https://www.formula1.com/en/racing/2025/hungary"
+    raceDate: "26 July",
+    round: 13,
+    link: "https://www.formula1.com/en/racing/2026/hungary"
 }, {
     img: dutch,
     name: "Dutch Grand Prix",
     location: "Neatherlands",
-    raceDate: "31 August",
-    round: 15,
-    link: "https://www.formula1.com/en/racing/2025/neatherlands"
+    raceDate: "23 August",
+    round: 14,
+    link: "https://www.formula1.com/en/racing/2026/neatherlands"
 }, {
     img: italy,
     name: "Italian Grand Prix",
     location: "Italy",
     raceDate: "07 September",
+    round: 15,
+    link: "https://www.formula1.com/en/racing/2026/italy"
+},{
+    img: madrid,
+    name: "Madrid Grand Prix",
+    location: "Madrid",
+    raceDate: "13 September",
     round: 16,
-    link: "https://www.formula1.com/en/racing/2025/italy"
+    link: "https://www.formula1.com/en/racing/2026/madrid"
 }, {
     img: baku,
     name: "Azerbaijan Grand Prix",
     location: "Azerbaijan",
-    raceDate: "21 September",
+    raceDate: "26 September",
     round: 17,
-    link: "https://www.formula1.com/en/racing/2025/azerbaijan"
+    link: "https://www.formula1.com/en/racing/2026/azerbaijan"
 }, {
     img: singapore,
     name: "Singapore Grand Prix",
     location: "Singapore",
-    raceDate: "05 October",
+    raceDate: "11 October",
     round: 18,
-    link: "https://www.formula1.com/en/racing/2025/singapore"
+    link: "https://www.formula1.com/en/racing/2026/singapore"
 }, {
     img: usa,
     name: "United States Grand Prix",
     location: "United States",
-    raceDate: "19 October",
+    raceDate: "25 October",
     round: 19,
-    link: "https://www.formula1.com/en/racing/2025/united-states"
+    link: "https://www.formula1.com/en/racing/2026/united-states"
 }, {
     img: mexico,
     name: "Mexican Grand Prix",
     location: "Mexico",
-    raceDate: "26 October",
+    raceDate: "01 October",
     round: 20,
-    link: "https://www.formula1.com/en/racing/2025/mexico"
+    link: "https://www.formula1.com/en/racing/2026/mexico"
 }, {
     img: brazil,
     name: "Brazilain Grand Prix",
     location: "Brazil",
-    raceDate: "09 November",
+    raceDate: "08 November",
     round: 21,
-    link: "https://www.formula1.com/en/racing/2025/brazil"
+    link: "https://www.formula1.com/en/racing/2026/brazil"
 }, {
     img: las_vegas,
     name: "Las Vegas Grand Prix",
     location: "Las Vegas",
-    raceDate: "22 November",
+    raceDate: "21 November",
     round: 22,
-    link: "https://www.formula1.com/en/racing/2025/las-vegas"
+    link: "https://www.formula1.com/en/racing/2026/las-vegas"
 }, {
     img: qatar,
     name: "Qatar Grand Prix",
     location: "Qatar",
-    raceDate: "30 November",
+    raceDate: "29 November",
     round: 23,
-    link: "https://www.formula1.com/en/racing/2025/qatar"
+    link: "https://www.formula1.com/en/racing/2026/qatar"
 }, {
     img: abu_dhabi,
     name: "Abu Dhabi Grand Prix",
     location: "Abu Dhabi",
-    raceDate: "07 December",
+    raceDate: "06 December",
     round: 24,
-    link: "https://www.formula1.com/en/racing/2025/united-arab-emirates"
+    link: "https://www.formula1.com/en/racing/2026/united-arab-emirates"
 },
 ]
 

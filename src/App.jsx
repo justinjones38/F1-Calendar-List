@@ -11,7 +11,7 @@ function App() {
           <div className="header-img">
               <img src={f1} alt="F1 logo"  />
           </div>
-          <h1>2025 FIA Formula One World Championship Schedule</h1>
+          <h1>2026 FIA Formula One World Championship Schedule</h1>
         </div>
         <Calendar />
         <Footer />
