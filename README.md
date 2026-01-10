@@ -37,7 +37,7 @@ It is designed to be lightweight, responsive, and easy to extend (e.g., adding r
 git clone https://github.com/your-username/F1-Calendar-List.git
 
 # Enter the project directory
-cd formula-1-event
+cd F1-Calendar-List
 
 # Install dependencies
 npm install
