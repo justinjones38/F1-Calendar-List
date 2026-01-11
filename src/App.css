@@ -15,7 +15,7 @@
 
 .header h1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: clamp(1.8rem, 20%, 2.4rem);
+  font-size: clamp(1.8rem, 20vw, 2.4rem);
   margin: 10px 30px 10px 30px;
 }
 
@@ -47,7 +47,7 @@
 
 .card-img img {
   width: 100%;
-  height: clamp(100px, 30%, 150px);
+  height: clamp(100px, 15vh, 150px);
 }
 
 .card-info {
@@ -55,23 +55,23 @@
     flex-direction: column;
     align-items: center;
     height: 6rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .card-info h4 {
-  font-size: clamp(1.0rem, 13%, 1.2rem);
+  font-size: clamp(1.0rem, 5vw, 1.2rem);
   margin-bottom: 10px;
 }
 
 .card-info h1 {
-  font-size: clamp(1.4rem, 25%, 1.8rem);
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
 }
 
 .card-info h2 {
-  font-size: clamp(1.15rem, 15%, 1.35rem);
+  font-size: clamp(0.90rem, 1.5vw, 1.55rem);
   font-weight: normal;
-  margin-bottom: 10px;
-  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 .card-button a{
   display: flex;
@@ -80,6 +80,10 @@
   text-decoration: none;
 }
 
+.card-date {
+  display: flex;
+  justify-content: center;
+}
 .card-button button {
   background-color: red;
   color: white;
@@ -118,14 +122,28 @@
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .card-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .card-info h2 {
+    font-size: clamp(0.90rem, 2.0vw, 1.45rem);
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   .card-container {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .card-info h2 {
+    font-size: clamp(1.20rem, 2.5vw, 1.65rem);
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
 }
