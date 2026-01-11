@@ -1,4 +1,4 @@
-## Formula 1 2025 Calendar — React App
+## Formula 1 2026 Calendar — React App
 
 A simple and interactive React application that displays the complete **2026 Formula 1 race schedule**, including dates, locations, and Grand Prix names.
 
