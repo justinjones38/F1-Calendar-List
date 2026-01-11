@@ -47,7 +47,7 @@
 
 .card-img img {
   width: 100%;
-  height: clamp(100px, 15vh, 150px);
+  height: clamp(100px, 25vh, 150px);
 }
 
 .card-info {
