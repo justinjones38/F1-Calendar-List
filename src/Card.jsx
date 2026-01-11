@@ -11,7 +11,9 @@ const Card = (props) => {
                     <h4>Round {event.round}</h4>
                     <h1>{event.location}</h1>
                     <h2>{event.name}</h2>
-                    <h4>{event.raceDate}</h4>
+                </div>
+                <div className="card-date">
+                        <h4>{event.raceDate}</h4>
                 </div>
                 <div className="card-button">
                     <a href={event.link} target="_blank" rel="noopener noreferrer"><button>More Info</button></a>
