@@ -16,7 +16,7 @@ const Card = (props) => {
                         <h4>{event.raceDate}</h4>
                 </div>
                 <div className="card-button">
-                    <a href={event.link} target="_blank" rel="noopener noreferrer"><button>More Info</button></a>
+                    <a href={event.link} target="_blank" rel="noreferrer"><button>More Info</button></a>
                 </div>
                 
             </div>
