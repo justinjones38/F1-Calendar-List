@@ -1,4 +1,4 @@
-import f1 from "./assets/f1.png";
+import f1 from "./assets/images/f1.png";
 import "./App.css";
 import Calendar from "./Calendar";
 import Footer from "./Footer"
