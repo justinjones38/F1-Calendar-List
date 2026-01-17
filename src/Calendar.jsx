@@ -1,9 +1,8 @@
-import events from "./events";
+import eventList from "./events.json";
 import Card from "./Card.jsx";
 
 
 const Calendar = () => {
-    const eventList = events;
     console.log(eventList)
     return (
         <>
