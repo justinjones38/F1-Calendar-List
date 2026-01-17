@@ -1,4 +1,4 @@
-import eventList from "./events.json";
+import eventList from "../events.json";
 import Card from "./Card.jsx";
 
 
