@@ -121,6 +121,10 @@
   font-weight: bold;
 }
 
+.loading-page, .error-page {
+  text-align: center;
+}
+
 
 @media (max-width: 800px) {
   .card-container {
