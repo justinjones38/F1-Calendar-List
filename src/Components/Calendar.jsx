@@ -1,9 +1,51 @@
-import eventList from "../events.json";
+import { useEffect, useState } from "react";
 import Card from "./Card.jsx";
+import eventsJSON from "../events.json"
 
 
 const Calendar = () => {
-    console.log(eventList)
+    const [eventList, setEventList] = useState([]);
+    const events = eventsJSON;
+
+    const transformDate = (date) => {
+        var month = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul","Aug", "Sep", "Oct", "Nov", "Dec"];
+        date = new Date(date);
+        return `${month[date.getMonth()]} ${date.getDate()}`
+    }
+
+
+    useEffect(() => {
+        const fetchData = async () => {{
+            try {
+                const response = await fetch("https://api.openf1.org/v1/meetings?year=2026");
+
+                if(!response.ok) {
+                    throw new Error("API not found")
+                }
+
+                const responseJSON = await response.json();
+
+                // Remove Pre-season testing 
+                let adjustedData = responseJSON.slice(2);
+
+                adjustedData = adjustedData.map((event, index) => ({
+                    ...event,
+                    date_start: transformDate(event.date_start),
+                    date_end: transformDate(event.date_end),
+                    link: events[index].link
+                }) )
+
+
+                setEventList(adjustedData);
+
+            } catch (err) {
+                console.log(err);
+            }
+        }}
+        fetchData()
+    }, []);
+
+    console.log(eventList);
     return (
         <>
             <Card eventList={eventList} />
