@@ -1,19 +1,20 @@
 
 const Card = (props) => {
     const {eventList} = props;
-    const eventCard = eventList.map((event) => {
+
+    const eventCard = eventList.map((event, index) => {
         return (
-            <div className="card" key={event.round}>
+            <div className="card" key={event.meeting_key}>
                 <div className="card-img">
-                    <img src={event.img} alt={event.location} />
+                    <img src={event.circuit_image} alt={event.location} />
                 </div>
                 <div className="card-info">
-                    <h4>Round {event.round}</h4>
-                    <h1>{event.location}</h1>
-                    <h2>{event.name}</h2>
+                    <h1> {event.location}</h1>
+                    <h2>{event.meeting_name}</h2>
+                    <h4>Round {index + 1}</h4>
                 </div>
                 <div className="card-date">
-                        <h4>{event.raceDate}</h4>
+                    <h2>{event.date_start} - {event.date_end}</h2>
                 </div>
                 <div className="card-button">
                     <a href={event.link} target="_blank" rel="noreferrer"><button>More Info</button></a>

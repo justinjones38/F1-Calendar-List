@@ -99,7 +99,7 @@
   transition: background-color 0.5s ;
 }
 .card button:hover {
-  background-color: #ff3333;
+  background-color: #f299a6;
 }
 
 .card-Button button:active {

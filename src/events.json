@@ -1,194 +1,122 @@
 [
   {
-    "img": "./images/aus.png",
-    "name": "Australian Grand Prix",
-    "location": "Australia",
-    "raceDate": "08 March",
     "round": 1,
+    "name": "Australian Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/australia"
   },
   {
-    "img": "./images/china.png",
-    "name": "Chinese Grand Prix",
-    "location": "China",
-    "raceDate": "15 March",
     "round": 2,
+    "name": "Chinese Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/china"
   },
   {
-    "img": "./images/japan.png",
-    "name": "Japanese Grand Prix",
-    "location": "Japan",
-    "raceDate": "29 April",
     "round": 3,
+    "name": "Japanese Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/japan"
   },
   {
-    "img": "./images/bahrain.png",
-    "name": "Bahrain Grand Prix",
-    "location": "Bahrain",
-    "raceDate": "12 April",
     "round": 4,
+    "name": "Bahrain Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/bahrain"
   },
   {
-    "img": "./images/saudi_arabia.png",
-    "name": "Saudi Arabian Grand Prix",
-    "location": "Saudi Arabia",
-    "raceDate": "19 April",
     "round": 5,
+    "name": "Saudi Arabian Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/saudi-arabia"
   },
   {
-    "img": "./images/miami.png",
-    "name": "Miami Grand Prix",
-    "location": "Miami",
-    "raceDate": "01 May",
     "round": 6,
+    "name": "Miami Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/miami"
   },
   {
-    "img": "./images/canada.png",
-    "name": "Canadian Grand Prix",
-    "location": "Montreal",
-    "raceDate": "24 May",
     "round": 7,
+    "name": "Canadian Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/canada"
   },
   {
-    "img": "./images/monaco.png",
-    "name": "Monaco Grand Prix",
-    "location": "Monaco",
-    "raceDate": "07 June",
     "round": 8,
+    "name": "Monaco Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/monaco"
   },
   {
-    "img": "./images/spain.png",
-    "name": "Barcelona-Catalunya Grand Prix",
-    "location": "Barecelona-Catalunya",
-    "raceDate": "14 June",
     "round": 9,
+    "name": "Barcelona-Catalunya Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/barcelona-catalunya"
   },
   {
-    "img": "./images/austria.png",
-    "name": "Austrian Grand Prix",
-    "location": "Austria",
-    "raceDate": "28 June",
     "round": 10,
+    "name": "Austrian Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/austria"
   },
   {
-    "img": "./images/british.png",
-    "name": "British Grand Prix",
-    "location": "Great Britain",
-    "raceDate": "05 July",
     "round": 11,
+    "name": "British Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/great-britain"
   },
   {
-    "img": "./images/belgium.png",
-    "name": "Belgium Grand Prix",
-    "location": "Belgium",
-    "raceDate": "19 July",
     "round": 12,
+    "name": "Belgium Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/belgium"
   },
   {
-    "img": "./images/hungary.png",
-    "name": "Hungarian Grand Prix",
-    "location": "Hungary",
-    "raceDate": "26 July",
     "round": 13,
+    "name": "Hungarian Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/hungary"
   },
   {
-    "img": "./images/dutch.png",
-    "name": "Dutch Grand Prix",
-    "location": "Neatherlands",
-    "raceDate": "23 August",
     "round": 14,
+    "name": "Dutch Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/neatherlands"
   },
   {
-    "img": "./images/italy.png",
-    "name": "Italian Grand Prix",
-    "location": "Italy",
-    "raceDate": "07 September",
     "round": 15,
+    "name": "Italian Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/italy"
   },
   {
-    "img": "./images/madrid.png",
-    "name": "Madrid Grand Prix",
-    "location": "Madrid",
-    "raceDate": "13 September",
     "round": 16,
+    "name": "Madrid Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/madrid"
   },
   {
-    "img": "./images/baku.png",
-    "name": "Azerbaijan Grand Prix",
-    "location": "Azerbaijan",
-    "raceDate": "26 September",
     "round": 17,
+    "name": "Azerbaijan Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/azerbaijan"
   },
   {
-    "img": "./images/singapore.png",
-    "name": "Singapore Grand Prix",
-    "location": "Singapore",
-    "raceDate": "11 October",
     "round": 18,
+    "name": "Singapore Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/singapore"
   },
   {
-    "img": "./images/usa.png",
-    "name": "United States Grand Prix",
-    "location": "United States",
-    "raceDate": "25 October",
     "round": 19,
+    "name": "United States Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/united-states"
   },
   {
-    "img": "./images/mexico.png",
-    "name": "Mexican Grand Prix",
-    "location": "Mexico",
-    "raceDate": "01 October",
     "round": 20,
+    "name": "Mexican Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/mexico"
   },
   {
-    "img": "./images/brazil.png",
-    "name": "Brazilain Grand Prix",
-    "location": "Brazil",
-    "raceDate": "08 November",
     "round": 21,
+    "name": "Brazilain Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/brazil"
   },
   {
-    "img": "./images/las_vegas.png",
-    "name": "Las Vegas Grand Prix",
-    "location": "Las Vegas",
-    "raceDate": "21 November",
     "round": 22,
+    "name": "Las Vegas Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/las-vegas"
   },
   {
-    "img": "./images/qatar.png",
-    "name": "Qatar Grand Prix",
-    "location": "Qatar",
-    "raceDate": "29 November",
     "round": 23,
+    "name": "Qatar Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/qatar"
   },
   {
-    "img": "./images/abu_dhabi.png",
-    "name": "Abu Dhabi Grand Prix",
-    "location": "Abu Dhabi",
-    "raceDate": "06 December",
     "round": 24,
+    "name": "Abu Dhabi Grand Prix",
     "link": "https://www.formula1.com/en/racing/2026/united-arab-emirates"
   }
 ]
