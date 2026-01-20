@@ -4,7 +4,9 @@ import eventsJSON from "../events.json"
 
 
 const Calendar = () => {
-    const [eventList, setEventList] = useState([]);
+    const [eventList, setEventList] = useState(null);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null)
     const events = eventsJSON;
 
     const transformDate = (date) => {
@@ -41,9 +43,21 @@ const Calendar = () => {
             } catch (err) {
                 console.log(err);
             }
+
+            finally {
+                setLoading(false);
+            }
         }}
         fetchData()
     }, []);
+
+    if (loading) {
+        return <h2 className="loading-page">Fetching 2026 F1 schedule ...</h2>
+    }
+
+    if (error || !eventList) {
+        return <h2 className="error-page">404: Data not found</h2>
+    }
 
     console.log(eventList);
     return (
