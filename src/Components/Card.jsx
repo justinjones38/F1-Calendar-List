@@ -11,6 +11,8 @@ const Card = (props) => {
                 <div className="card-info">
                     <h1> {event.location}</h1>
                     <h2>{event.meeting_name}</h2>
+                </div>
+                <div className="card-round">
                     <h4>Round {index + 1}</h4>
                 </div>
                 <div className="card-date">

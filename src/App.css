@@ -34,8 +34,7 @@
 }
 
 .card:hover {
-  cursor: pointer;
-  box-shadow: 0 0 3px red  0 0 5px red;
+  box-shadow: 0 0 3px red,  0 0 5px red;
 }
 .card-img {
   margin-bottom: 20px;
@@ -50,12 +49,13 @@
 .card-info {
     text-align: center;
     height: 6rem;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
-.card-info h4 {
+.card-round {
   font-size: clamp(1.0rem, 5vw, 1.2rem);
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .card-info h1 {
