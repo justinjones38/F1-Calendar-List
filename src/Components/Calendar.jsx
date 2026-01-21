@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Card from "./Card.jsx";
+import LoadingPage from "./LoadingPage.jsx";
 import eventsJSON from "../events.json"
 
 
@@ -52,7 +53,7 @@ const Calendar = () => {
     }, []);
 
     if (loading) {
-        return <h2 className="loading-page">Fetching 2026 F1 schedule ...</h2>
+        return <LoadingPage />
     }
 
     if (error || !eventList) {

@@ -115,7 +115,9 @@
   font-weight: bold;
 }
 
-.loading-page, .error-page {
+.loading-page {
+  height: 50vh;
+  margin-top: 30px;
   text-align: center;
 }
 
