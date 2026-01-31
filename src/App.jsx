@@ -7,12 +7,10 @@ function App() {
 
   return (
     <div>
-        <div className="header">
-          <div className="header-img">
-              <img src={f1} alt="F1 logo"  />
-          </div>
-          <h1>2026 FIA Formula One World Championship Schedule</h1>
-        </div>
+      <header>
+          <img src={f1} alt="F1 logo" className="header-logo"  />
+          <h1 className="header-title">2026 FIA Formula One World Championship Schedule</h1>
+      </header>
         <Calendar />
         <Footer />
     </div>
