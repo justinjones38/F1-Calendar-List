@@ -65,8 +65,8 @@ header {
 
 .card-button:hover,
 .card-button:focus {
-  background-color: #610606;
-  box-shadow: 0 0 2px 2px #610606;
+  background-color: #c91111;
+  box-shadow: 0 0 2px 2px #c91111;
 }
 
 
@@ -77,16 +77,21 @@ header {
 
 
 
-.footer  {
+.footer-container  {
   background-color: red;
-  color: white;
-  padding: 1em 2em;
+  color: #fff;
+  padding: 1em 0;
 }
 
-.footer h3 {
+.footer {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.footer-title {
   text-align: center;
 }
-.footer span {
+.footer-description span {
   font-weight: bold;
 }
 
