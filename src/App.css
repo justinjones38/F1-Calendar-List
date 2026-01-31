@@ -1,111 +1,86 @@
-.header {
-  text-align: center;
+/* ===========
+  LAYOUT
+*/
+
+/* Header */
+header {
+  width: 95%;
+  margin: 0 auto 1em auto;
 }
 
-.header-img{
-  display: flex;
-  justify-content: center;
+.header-logo {
+  margin: 0 auto;
+  max-width: 200px;
+  width: 30%;
 }
 
-.header-img img {
-  width: 20%;
-}
 
-.header h1 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: clamp(1.8rem, 20vw, 2.4rem);
-  margin: 10px 30px 10px 30px;
-}
 
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-  margin: 50px;
-
-}
-
+/* Cards for Schedule */
 .card {
-  display: block;
-  border: 4px red solid;
-  border-radius: 10px;
-  padding: 0px 10px 20px 10px; 
-  transition: box-shadow 0.4s;
+  width: 60%;
+  margin: 0 auto;
+  border: 4px solid #f70202;
+  border-radius: 12px;
+  margin-bottom: 3em;
+  max-width: 400px;
 }
 
-.card:hover {
-  box-shadow: 0 0 3px red,  0 0 5px red;
-}
 .card-img {
-  margin-bottom: 20px;
-  margin-top: 20px;
+  object-fit: cover;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em;
+  max-width: 300px;
 }
 
-.card-img img {
-  width: 100%;
-  height: clamp(100px, 25vh, 150px);
+.card-title {
+  text-align: center;
 }
 
 .card-info {
-    text-align: center;
-    height: 6rem;
-    margin-bottom: 10px;
-}
-
-.card-round {
-  font-size: clamp(1.0rem, 5vw, 1.2rem);
-  margin-bottom: 10px;
   text-align: center;
+  margin-bottom: 1.5em;
+  font-size: 1.2rem;
 }
 
-.card-info h1 {
-  font-size: clamp(1.2rem, 3vw, 1.8rem);
+.card-name {
+  font-weight: 600;
 }
 
-.card-info h2 {
-  font-size: clamp(0.90rem, 1.5vw, 1.55rem);
-  font-weight: normal;
-  margin-bottom: 20px;
-  margin-top: 10px;
-}
-.card-button a{
-  display: flex;
-  justify-content: center;
-  width: 100%;
+.card-button {
+  display: block;
   text-decoration: none;
-}
-
-.card-date {
-  display: flex;
-  justify-content: center;
-}
-.card-button button {
-  background-color: red;
-  color: white;
-  margin-top: 20px;
-  width: 70%;
-  border-radius: 12px;
-  height: 40px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #f70202;
+  width: 50%;
+  color: #fff;
+  padding: 0.5em 1.75em;
+  margin: 0 auto 1em auto;
   border: none;
+  max-width: 250px;
+  transition: background-color 0.4s;
+}
+
+.card-button:hover,
+.card-button:focus {
+  background-color: #610606;
+  box-shadow: 0 0 2px 2px #610606;
 }
 
 
-.card button {
-  transition: background-color 0.5s ;
-}
-.card button:hover {
-  background-color: #f299a6;
-}
 
-.card-Button button:active {
-  background-color: #b30000;
-}
+
+
+
+
 
 
 .footer  {
   background-color: red;
   color: white;
-  padding: 30px;
+  padding: 1em 2em;
 }
 
 .footer h3 {
@@ -117,42 +92,40 @@
 
 .loading-page {
   height: 50vh;
-  margin-top: 30px;
+  margin-top: 2em;
   text-align: center;
 }
 
 
-@media (max-width: 800px) {
+/* =======
+  MEDIA QUERIES 
+  ===========*/
+
+@media (min-width: 650px) {
   .card-container {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 0 auto 2em auto;
+    gap: 2em;
+    justify-content: center;
   }
 
-  .card-info h2 {
-    font-size: clamp(0.90rem, 2.0vw, 1.45rem);
-    font-weight: normal;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
+  .card {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-button {
+    margin-top: auto;
+  }
+
 }
 
-@media (max-width: 550px) {
+@media (min-width: 1000px) {
   .card-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .card-info h2 {
-    font-size: clamp(1.20rem, 2.5vw, 1.65rem);
-    font-weight: normal;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-}
-
-@media (max-width: 320px) {
-  .header h1 {
-    font-size: clamp(1.2rem, 15vw, 1.8rem);
-  }
-  .card-info h2 {
-    font-size: clamp(0.85rem, 1.8vw, 1.1rem);
+    grid-template-columns: repeat(3, 1fr);
   }
 }

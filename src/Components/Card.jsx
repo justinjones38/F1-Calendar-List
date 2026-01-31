@@ -5,23 +5,14 @@ const Card = (props) => {
     const eventCard = eventList.map((event, index) => {
         return (
             <div className="card" key={event.meeting_key}>
-                <div className="card-img">
-                    <img src={event.circuit_image} alt={event.location} />
-                </div>
+                <img src={event.circuit_image} alt={event.location} className="card-img" />
                 <div className="card-info">
-                    <h1> {event.location}</h1>
-                    <h2>{event.meeting_name}</h2>
+                    <h2 className="card-title"> {event.location}</h2>
+                    <div className="card-name">{event.meeting_name}</div>
+                    <p className="card-round">Round {index + 1}</p>
+                    <p className="card-date">{event.date_start} - {event.date_end}</p>
                 </div>
-                <div className="card-round">
-                    <h4>Round {index + 1}</h4>
-                </div>
-                <div className="card-date">
-                    <h2>{event.date_start} - {event.date_end}</h2>
-                </div>
-                <div className="card-button">
-                    <a href={event.link} target="_blank" rel="noreferrer"><button>More Info</button></a>
-                </div>
-                
+                <a href={event.link} target="_blank" rel="noreferrer" className="card-button">More Info</a>
             </div>
         )
     })
